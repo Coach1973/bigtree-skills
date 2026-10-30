@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>大樹常用技能表</title>
+<style>
+  :root {
+    --bg: #f6f5f1;
+    --card: #ffffff;
+    --ink: #1f2328;
+    --muted: #5b6168;
+    --line: #e2e0d8;
+    --accent: #2f6f4e;
+    --accent-soft: #e6f1ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17191c;
+      --card: #22252a;
+      --ink: #eceef1;
+      --muted: #a4abb5;
+      --line: #343942;
+      --accent: #7fc49d;
+      --accent-soft: #223a2d;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17191c;
+    --card: #22252a;
+    --ink: #eceef1;
+    --muted: #a4abb5;
+    --line: #343942;
+    --accent: #7fc49d;
+    --accent-soft: #223a2d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px 16px 56px;
+  }
+  h1 {
+    font-size: 32px;
+    margin: 0 0 8px;
+  }
+  .lead {
+    color: var(--muted);
+    margin: 0 0 28px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  @media (min-width: 640px) {
+    .grid { grid-template-columns: 1fr 1fr; }
+  }
+  a.card {
+    display: block;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 18px 20px;
+    text-decoration: none;
+    color: inherit;
+  }
+  a.card:hover, a.card:focus-visible {
+    border-color: var(--accent);
+    outline: none;
+  }
+  .name {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 0 0 6px;
+  }
+  .desc {
+    color: var(--muted);
+    margin: 0 0 10px;
+  }
+  .go {
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .tag {
+    display: inline-block;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 16px;
+    padding: 2px 10px;
+    border-radius: 999px;
+    margin-right: 6px;
+  }
+  .note {
+    color: var(--muted);
+    font-size: 16px;
+    margin-top: 28px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>大樹常用技能表</h1>
+  <p class="lead">點卡片就會進入那個技能的網頁。</p>
+
+  <div class="grid">
+
+    <a class="card" href="https://coach1973.github.io/hero-opening-skill/">
+      <p class="name">做整個網頁開頭動畫的技能</p>
+      <p class="desc">一頁式指令，把網頁開頭動畫一次做完。</p>
+      <span class="go">開啟 →</span>
+    </a>
+
+    <a class="card" href="https://coach1973.github.io/tava-brand-web-playbook/">
+      <p class="name">個人行銷／品牌網頁｜開工指令與製作經驗</p>
+      <p class="desc">做個人品牌網頁的開工指令，附製作經驗。</p>
+      <span class="go">開啟 →</span>
+    </a>
+
+    <a class="card" href="https://event.bymyway.com/curated/reverse-skill/">
+      <p class="name">反向操作技能書</p>
+      <p class="desc">看到喜歡的網頁，拆解後換成你的產品重做。</p>
+      <span class="go">開啟 →</span>
+    </a>
+
+    <a class="card" href="https://coach1973.github.io/ai-go/lk888-inject.html">
+      <p class="name">生圖一鍵注入</p>
+      <p class="desc">貼給任何 AI，用 LK888 出跟專案同風格的圖。</p>
+      <span class="go">開啟 →</span>
+    </a>
+
+    <a class="card" href="https://event.bymyway.com/curation/upload">
+      <p class="name">策展上架</p>
+      <p class="desc">上傳作品到策展中心。沒登入會先跳到登入頁。</p>
+      <span class="go">開啟 →</span>
+    </a>
+
+    <a class="card" href="https://coach1973.github.io/ai-go/">
+      <p class="name">大樹教練 AI 特助心法</p>
+      <p class="desc">一鍵注入任何 AI，讓它照特助心法做事。</p>
+      <span class="go">開啟 →</span>
+    </a>
+
+    <a class="card" href="https://coach1973.github.io/ai-go/status.html">
+      <p class="name">隨身軍師・一鍵接手</p>
+      <p class="desc">大樹教練工作最新交接棒（公開版）。</p>
+      <span class="go">開啟 →</span>
+    </a>
+
+  </div>
+
+  <p class="note">如有新增技能，請在這頁加一張卡片。</p>
+</div>
+</body>
+</html>
